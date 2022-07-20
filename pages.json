@@ -1,0 +1,82 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/list/list",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [
+      {
+        "path": "good_detail/good_detail",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+        }
+      }
+    ]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    // "iconfontSrc":"",    //svg的路径
+    "selectedColor": "#cae1f3",
+    "list": [
+      // {
+      //   "text": "书架",
+      //   "pagePath": "pages/index/index",
+      //   "iconfont": {
+      //     "text": "\ue610",
+      //     "selectedText": "\ue610",
+      //     "fontSize": "22px",
+      //     "color": "#e6e6e6",
+      //     "selectedColor": "#1ba194"
+      //   }
+      // },
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_active.png",
+        "iconfont": {
+
+        }
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "list",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "user",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_active.png"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

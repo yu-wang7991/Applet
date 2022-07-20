@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/user/user",
+    "pages/list/list"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "good_detail/good_detail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#cae1f3",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_active.png",
+        "iconfont": {}
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "list",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "user",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
